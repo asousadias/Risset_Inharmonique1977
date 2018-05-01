@@ -1,6 +1,8 @@
 # Jean-Claude Risset's Inharmonique (1977) for soprano and tape
-Repository for Csound patches adapted from Lorrain (1980)
-This is a work in progress. Most of the rochestras and scores are not optimised to keep the MusicV coding style for easier reference.
+Repository for Csound patches adapted from Lorrain (1980).
+
+This is a work in progress. 
+Most of the orchestras and scores are not optimised to keep the MusicV coding style for easier reference.
 
 ## Main references
 Lorrain, D. (1980) Analyse de la bande magnétique de l'œuvre de Jean-Claude Risset "Inharmonique". Rapport IRCAM n°26/80. Centre Georges Pompidou, Paris.
