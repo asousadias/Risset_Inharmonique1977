@@ -15,7 +15,9 @@ Risset, J.-C. ([1969] 1995) An introductory catalog of computer-synthesized soun
 
 ## Other references
 For a more detailed discussion in some issues, see, for example:
+
 Sousa Dias, A. (2003) Transcription de fichiers Music V vers Csound au travers de OpenMusic. Actes des dixièmes Journées d’Informatique Musicale, AFIM, Montbeliard. http://jim.afim-asso.org/jim2003/articles/asousadias.pdf
+
 Sousa Dias, A. (2007). Deux contributions à la pédagogie de la musique électroacoustique et l’informatique musicale. Actes des Journées d’Informatique Musicale. AFIM/GRAME, Lyon.  http://www.grame.fr/jim07/download/11-SousaDias.pdf.
 
 Antonio de Sousa Dias
