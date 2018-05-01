@@ -4,7 +4,12 @@
 ; in Rapports IRCAM 26/80.
 ; Csound version by Antonio de Sousa Dias
 ; sousa.dias@wanadoo.fr
-#include	"header_stereo"
+
+sr	= 44100
+kr	= 4410
+ksmps	= 10
+nchnls	= 2
+
 giamp_fact	= 16	; Amplitude factor (not in the original orchestra)
 
 ;	HARMONIC CASCADE                     ;

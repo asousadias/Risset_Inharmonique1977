@@ -2,11 +2,14 @@
 ; As described in Lorrain, Denis:
 ; "Analyse de la bande magnetique de l'oeuvre de Jean-Claude Risset - Inharmonique"
 ; in Rapports IRCAM 26/80.
-; Csound version by
-; Antonio de Sousa Dias
-; CICM, Université Paris VIII
-; sousa.dias@netcabo.pt
-#include	"header_stereo"
+; Csound version by Antonio de Sousa Dias
+; sousa.dias@wanadoo.fr
+
+sr	= 44100
+kr	= 4410
+ksmps	= 10
+nchnls	= 2
+
 giamp_fact	= 16	; Amplitude factor (not in the original orchestra)
 
 

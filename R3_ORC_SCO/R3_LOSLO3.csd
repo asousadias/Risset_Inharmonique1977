@@ -9,7 +9,6 @@
 ; Csound version by Antonio de Sousa Dias
 ; sousa.dias@wanadoo.fr
 
-; #include	"header_stereo"
 sr	= 44100
 kr	= 4410
 ksmps	= 10
