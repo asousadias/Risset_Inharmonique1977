@@ -35,11 +35,8 @@ This is still a working in progress.
 These patches are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 Faculdade de Belas-Artes,
-
 Universidade de Lisboa
-
 Largo da Academia Nacional de Belas-Artes
-
 1249-058 Lisboa, Portugal
 
 www.sousadias.com
