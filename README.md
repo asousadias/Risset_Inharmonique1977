@@ -1,5 +1,5 @@
 # Jean-Claude Risset's _Inharmonique_ (1977) for soprano and tape
-Repository for Csound patches adapted from Lorrain (1980).
+Repository for Csound patches adapted from Lorrain (1980) of Jean-Claude Risset's __Inharmonique__ (1977) for soprano and tape
 
 __NOTE: This is a work in progress.__
 Most of the orchestras and scores are not optimised to keep the __MusicV__ coding style for easier reference.
