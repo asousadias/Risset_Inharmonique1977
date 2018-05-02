@@ -25,10 +25,10 @@ Universidade de Lisboa, Faculdade de Belas-Artes
 a.sousadias@belasartes.ulisboa.pt
 
 ## Revision history:
-This is a working in progress.
-1 May 2018 release:
+This is still a working in progress.
+### 1 May 2018 release:
 - some minor changes and bug fixes.
-18 Jan 2007 release:
+### 18 Jan 2007 release:
 - some minor changes and bug fixes, more consistent syntax style.
 
 ## Disclaimer:
