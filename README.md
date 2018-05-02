@@ -7,10 +7,8 @@ Most of the orchestras and scores are not optimised to keep the __MusicV__ codin
 ## Main references
 Lorrain, D. (1980) Analyse de la bande magnétique de l'œuvre de Jean-Claude Risset "Inharmonique". Rapport IRCAM n°26/80. Centre Georges Pompidou, Paris.
 
-
-
-
 Mathews, M. V. et al. (1969). The Technology of Computer Music. The MIT press, Cambridge.
+
 Risset, J.-C. ([1969] 1995) An introductory catalog of computer-synthesized sounds (1969). The historical CD of digital sound synthesis, CD Wergo 2033-2, 109-254.
 
 ## Other references
