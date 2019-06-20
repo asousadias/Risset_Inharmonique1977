@@ -4,7 +4,7 @@ Repository for Csound patches adapted from Lorrain (1980) of Jean-Claude Risset'
 __NOTE: This is a work in progress.__
 Most of the orchestras and scores are not optimised to keep the __MusicV__ coding style for easier reference.
 
-- Current release: https://github.com/asousadias/Risset_Inharmonique1977/archive/v1.0.zip
+- Current release: https://github.com/asousadias/Risset_Inharmonique1977/archive/V2.0.zip
 
 ## Main references
 Lorrain, D. (1980) Analyse de la bande magnétique de l'œuvre de Jean-Claude Risset "Inharmonique". Rapport IRCAM n°26/80. Centre Georges Pompidou, Paris.
