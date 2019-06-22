@@ -48,7 +48,7 @@ ifn5 = 3305
 
 aB31	oscili	iP5, iP7, ifn5, iP8	; envelope
 aB32	oscili	aB31, iP6, ifn1
-	; outs aB32, aB32
+	 outs aB32, aB32
 gaB3206	=	aB32 + gaB3206
 endin
 
