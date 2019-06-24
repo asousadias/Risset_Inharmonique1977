@@ -23,7 +23,9 @@ giamp_fact	= 16	; Amplitude factor
 ; S 1 - NOISE4.ORC:
 ; ==============================
 ;  GLISSANDI DE BRUIT
-instr 1005
+instr 1005, 1006
+; This version consolidates instruments for a better efficiency
+ichannel = ( p1 == 1005 ? 1 : 2 )
 iDUR	= 1/p3
 iP5	= p4 * giamp_fact	; Amplitude
 iP6	= p5	; center frequency
@@ -32,39 +34,12 @@ iV1	= 1
 
 ifn1 = 1001
 ifn5 = 1005
-ifn7 = 1007
-ifn8 = 1008
-
-aB5	oscili  iV1, iDUR, ifn5
-aB4	oscili	100, iDUR, ifn7
-aB4	randh	iV1, aB4
-aB3	=	aB5 * iP5
-aB5	=	aB5 * 0.2
-aB5	=	aB5 * aB4
-aB5	=	iV1 + aB5
-aB5	=	iP7 * aB5
-aB3	randi	aB3, aB5
-aB6	oscili	iP6, iDUR, ifn8
-aB4	=	aB4 * 0.2
-aB4	=	iV1 + aB4
-aB6	=	aB4 * aB6
-aB3	oscili	aB3, aB6, ifn1
-	outch 1, aB3
-endin
-
-instr 1006
-iDUR	= 1/p3
-iP5	= p4 * giamp_fact
-iP6	= p5
-iP7	= p6
-iV1	= 1
-
-ifn1 = 1001
 ifn6 = 1006
+ifnx	=	(p1 == 1005 ? ifn5 : ifn6)
 ifn7 = 1007
 ifn8 = 1008
 
-aB5	oscili  iV1, iDUR, ifn6
+aB5	oscili  iV1, iDUR, ifnx
 aB4	oscili	100, iDUR, ifn7
 aB4	randh	iV1, aB4
 aB3	=	aB5 * iP5
@@ -78,7 +53,7 @@ aB4	=	aB4 * 0.2
 aB4	=	iV1 + aB4
 aB6	=	aB4 * aB6
 aB3	oscili	aB3, aB6, ifn1
-	outch 2, aB3
+	outch ichannel, aB3
 endin
 
 </CsInstruments>
