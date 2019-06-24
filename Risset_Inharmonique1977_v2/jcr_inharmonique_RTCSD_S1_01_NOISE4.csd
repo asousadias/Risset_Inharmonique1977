@@ -60,11 +60,11 @@ iP7	= p6
 iV1	= 1
 
 ifn1 = 1001
-ifn5 = 1005
+ifn6 = 1006
 ifn7 = 1007
 ifn8 = 1008
 
-aB5	oscili  iV1, iDUR, ifn5
+aB5	oscili  iV1, iDUR, ifn6
 aB4	oscili	100, iDUR, ifn7
 aB4	randh	iV1, aB4
 aB3	=	aB5 * iP5
@@ -80,8 +80,6 @@ aB6	=	aB4 * aB6
 aB3	oscili	aB3, aB6, ifn1
 	outch 2, aB3
 endin
-
-
 
 </CsInstruments>
 <CsScore>
@@ -140,7 +138,7 @@ e
   <g>46</g>
   <b>255</b>
  </bgcolor>
- <bsbObject type="BSBVSlider" version="2">
+ <bsbObject version="2" type="BSBVSlider">
   <objectName>slider1</objectName>
   <x>5</x>
   <y>5</y>
